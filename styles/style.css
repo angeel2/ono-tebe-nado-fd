@@ -69,16 +69,19 @@
    width: 100%;
 }
 
-.header__address {
+.address {
    font-size: 18px;
-   padding-left: 190px;
-   height: 100px;
    letter-spacing: 0.18px;
    line-height: 24.3px;
    font-family: "Raleway", sans-serif;
-   list-style-type: none;
    font-style: normal;
+}
+
+.address_place_header{
+   padding-left: 190px;
+   height: 100px;
    max-width:max-content;
+   list-style-type: none;
 }
 
 .address_item {
@@ -375,12 +378,7 @@
    padding: 100px 50px 82px 50px;
 }
 
-.footer_address {
-   font-size: 18px;
-   letter-spacing: 0.18px;
-   line-height: 24.3px;
-   font-family: "Raleway", sans-serif;
-   font-style: normal;
+.address_place_footer {
    width: 264.57px;
    padding-top: 80px;
    text-underline-position: under;
