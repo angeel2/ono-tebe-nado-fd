@@ -98,7 +98,7 @@
 
 .cover {
    position: relative;
-   padding-top: 42px;
+   padding-top: 40px;
    background-image: url(../images/cover.jpg);
    color: white;
    text-transform: uppercase;
@@ -122,9 +122,9 @@
    flex-direction: column;
    position: relative;
    padding-top: 128px;
+   padding-bottom: 114px;
    padding-right: 50px;
    padding-left: 50px;
-   padding-bottom: 114px;
    gap: 35px;
    font-size: 100px;
    color: white;
@@ -148,6 +148,8 @@
 .aligned-text_center {
    line-height: 1;
    text-align: center;
+   margin-left: -10px;
+   margin-right: -40px;
 }
 
 .aligned-text_right {
